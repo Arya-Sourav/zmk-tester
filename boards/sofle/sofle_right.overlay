@@ -24,3 +24,34 @@
 &right_encoder {
     status = "okay";
 };
+
+/ {
+//     keys {
+//         compatible = "gpio-keys";
+
+//         tps48_swipe_up: swipe_up {
+//             gpios = <&gpio0 06 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//             label = "TPS48 Swipe Up";
+//         };
+
+//         tps48_swipe_down: swipe_down {
+//             gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//             label = "TPS48 Swipe Down";
+//         };
+
+//         tps48_swipe_left: swipe_left {
+//             gpios = <&gpio0 08 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//             label = "TPS48 Swipe Left";
+//         };
+
+//         tps48_swipe_right: swipe_right {
+//             gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//             label = "TPS48 Swipe Right";
+//         };
+
+//         tps48_tap: tap {
+//             gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//             label = "TPS48 Tap";
+//         };
+//     };
+// };
