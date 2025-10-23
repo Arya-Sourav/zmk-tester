@@ -9,7 +9,7 @@
 // Uncomment for Left half main
 // &default_transform {
 //     col-offset = <6>;
-};
+// };
 
 // For Right as main half
 &kscan0 {
