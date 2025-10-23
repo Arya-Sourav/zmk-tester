@@ -6,8 +6,9 @@
 
 #include "sofle.dtsi"
 
-&default_transform {
-    col-offset = <6>;
+// Uncomment for Left half main
+// &default_transform {
+//     col-offset = <6>;
 };
 
 // For Right as main half

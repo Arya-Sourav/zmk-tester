@@ -6,7 +6,10 @@
 
 #include "sofle.dtsi"
 
-
+// Uncomment for Right half main
+&default_transform {
+    col-offset = <6>;
+}
 //  For Left has main half
 // &kscan0 {
 //     col-gpios
