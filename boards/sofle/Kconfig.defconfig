@@ -10,8 +10,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 # User added
-# config ZMK_HID_INDICATORS
-#     default y
+config ZMK_HID_INDICATORS
+    default y
 
 endif
 
