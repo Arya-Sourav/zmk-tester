@@ -1,29 +1,29 @@
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: caksoylar
+#       url-base: https://github.com/caksoylar
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#     - name: zmk-rgbled-widget 
+#       remote: caksoylar
+#       revision: main
+#   self:
+#     path: config
+
+
 manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zmkfirmware
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: upstream
       revision: main
       import: app/west.yml
-    - name: zmk-rgbled-widget 
-      remote: caksoylar
-      revision: main
   self:
     path: config
-
-
-# manifest:
-#   remotes:
-#     - name: upstream
-#       url-base: https://github.com/zmkfirmware
-#   projects:
-#     - name: zmk
-#       remote: upstream
-#       revision: main
-#       import: app/west.yml
-#   self:
-#     path: config
