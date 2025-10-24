@@ -7,32 +7,32 @@
 #include "sofle.dtsi"
 
 // Uncomment for Right half main
-&default_transform {
-    col-offset = <6>;
+// &default_transform {
+//     col-offset = <6>;
 }
-//  For Left has main half
-// &kscan0 {
-//     col-gpios
-//         = <&pro_micro 19 GPIO_ACTIVE_HIGH>
-//         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-//         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
-//         , <&pro_micro 14 GPIO_ACTIVE_HIGH>
-//         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-//         , <&pro_micro 10 GPIO_ACTIVE_HIGH>
-//         ;
-// };
-
-// For Right as main half
+ // For Left has main half
 &kscan0 {
     col-gpios
-        = <&pro_micro 10 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        = <&pro_micro 19 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH>
         ;
 };
+
+// // For Right as main half
+// &kscan0 {
+//     col-gpios
+//         = <&pro_micro 10 GPIO_ACTIVE_HIGH>
+//         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+//         , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+//         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+//         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+//         , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+//         ;
+// };
 
 &left_encoder {
     status = "okay";
