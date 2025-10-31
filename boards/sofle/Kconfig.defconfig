@@ -4,7 +4,7 @@
 if SHIELD_SOFLE_RIGHT
 
     config ZMK_KEYBOARD_NAME
-        default "Sofle"
+        default "sofle.right"
 
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
@@ -12,6 +12,14 @@ if SHIELD_SOFLE_RIGHT
     # User added
     # config ZMK_HID_INDICATORS
     #     default y
+
+if SHIELD_SOFLE_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "sofle.left"
+
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default n
 
 endif
 
